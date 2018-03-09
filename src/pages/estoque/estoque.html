@@ -1,17 +1,8 @@
-<!--
-  Generated template for the EstoquePage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
-
-  <ion-navbar>
-    <ion-title>estoque</ion-title>
+  <ion-navbar align="center">
+    <ion-title>Home</ion-title>
   </ion-navbar>
-
 </ion-header>
-
 
 <ion-content padding>
     <ion-searchbar
@@ -19,49 +10,85 @@
     [showCancelButton]="shouldShowCancel"
     (ionInput)="onInput($event)"
     (ionCancel)="onCancel($event)">
-    </ion-searchbar>
-
-
-
-    <ion-list>
-        <ion-item>
-          <ion-label color="primary">Inline Label</ion-label>
-          <ion-input placeholder="Text Input"></ion-input>
+  </ion-searchbar>
+  <div class="col" align="center">
+  <div class="row">
+    <div class="col"><ion-card>
+        <img src="assets/imgs/img1.jpg">
+      <ion-card-header>
+        <h1>Estoque</h1>
+      </ion-card-header>
+      <ion-card-content>
+          <button ion-button full>ENTRAR</button>
+      </ion-card-content>
+    </ion-card></div>
+    <div class="col"><ion-card>
+        <img src="assets/imgs/img1.jpg">
+      <ion-card-header>
+        <h1>Vendas</h1>
+      </ion-card-header>
+      <ion-card-content>
+          <button ion-button full>ENTRAR</button>
+      </ion-card-content>
+    </ion-card></div>
+  </div>
+    <div class="w-100"></div>
+    <div class="col">
+    <div class="col"><ion-card>
+        <img src="assets/imgs/img2.jpg">
+      <ion-card-header>
+        <h1>Catálogos</h1>
+      </ion-card-header>
+      <ion-card-content>
+          <button ion-button full>ENTRAR</button>
+      </ion-card-content>
+    </ion-card></div>
+    <div class="col"><ion-card>
+        <img src="assets/imgs/img3.jpg">
+      <ion-card-header>
+        <h1>Promoções</h1>
+      </ion-card-header>
+      <ion-card-content>
+          <button ion-button full>ENTRAR</button>
+      </ion-card-content>
+    </ion-card></div>
+  </div>
+  <br>
+  <div align="center"><h1>WhatsTruck</h1></div>
+  <br>
+  <ion-list>
+      <ion-item>
+        <ion-avatar item-start>
+          <img src="assets/imgs/img1.jpg">
+        </ion-avatar>
+        <h2>João</h2>
+        <h3>Don't Know What To Do!</h3>
+        <p>I've had a pretty messed up day. If we just...</p>
+      </ion-item>
+      <ion-item>
+          <ion-avatar item-start>
+            <img src="assets/imgs/img1.jpg">
+          </ion-avatar>
+          <h2>Felipe</h2>
+          <h3>Don't Know What To Do!</h3>
+          <p>I've had a pretty messed up day. If we just...</p>
         </ion-item>
-      
         <ion-item>
-          <ion-label color="primary" fixed>Fixed Label</ion-label>
-          <ion-input type="tel" placeholder="Tel Input"></ion-input>
-        </ion-item>
-      
-        <ion-item>
-          <ion-input type="number" placeholder="Number Input with no label"></ion-input>
-        </ion-item>
-      
-        <ion-item>
-          <ion-label color="primary" stacked>Stacked Label</ion-label>
-          <ion-input type="email" placeholder="Email Input"></ion-input>
-        </ion-item>
-      
-        <ion-item>
-          <ion-label color="primary" stacked>Stacked Label</ion-label>
-          <ion-input type="password" placeholder="Password Input"></ion-input>
-        </ion-item>
-      
-        <ion-item>
-          <ion-label color="primary" floating>Floating Label</ion-label>
-          <ion-input></ion-input>
-        </ion-item>
-      
-        <ion-item>
-          <ion-input placeholder="Clear Input" clearInput></ion-input>
-        </ion-item>
-      
-        <ion-item>
-          <ion-textarea placeholder="Enter a description"></ion-textarea>
-        </ion-item>
-      </ion-list>
-
-      <button ion-button full><ion-icon name="search"></ion-icon>Pesquisar</button>
-      
+            <ion-avatar item-start>
+              <img src="assets/imgs/img1.jpg">
+            </ion-avatar>
+            <h2>Marcos</h2>
+            <h3>Don't Know What To Do!</h3>
+            <p>I've had a pretty messed up day. If we just...</p>
+          </ion-item>
+          <ion-item>
+              <ion-avatar item-start>
+                <img src="assets/imgs/img1.jpg">
+              </ion-avatar>
+              <h2>Pedro</h2>
+              <h3>Don't Know What To Do!</h3>
+              <p>I've had a pretty messed up day. If we just...</p>
+            </ion-item>
+    </ion-list>
+  </div>
 </ion-content>
