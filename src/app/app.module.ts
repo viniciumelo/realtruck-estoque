@@ -7,6 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { EstoquePage } from '../pages/estoque/estoque';
+import { RepositorioPage } from '../pages/repositorio/repositorio';
 
 
 
@@ -14,7 +15,8 @@ import { EstoquePage } from '../pages/estoque/estoque';
   declarations: [
     MyApp,
     HomePage,
-    EstoquePage
+    EstoquePage,
+    RepositorioPage
   ],
   imports: [
     BrowserModule,
@@ -24,7 +26,8 @@ import { EstoquePage } from '../pages/estoque/estoque';
   entryComponents: [
     MyApp,
     HomePage,
-    EstoquePage
+    EstoquePage,
+    RepositorioPage
   ],
   providers: [
     StatusBar,
